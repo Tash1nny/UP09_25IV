@@ -20,8 +20,6 @@
   height: 2.2rem;
 }
 
-
-
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -39,7 +37,6 @@
   transition: all 0.3s;
 }
 
-
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
@@ -47,7 +44,6 @@
   color: #fff;
   background-color: #e67e22;
 }
-
 
 .btn-mobile-nav {
   border: none;
@@ -130,8 +126,6 @@
   border: 3px solid #fdf2e9;
 }
 
-
-
 .delivered-imgs img:last-child {
   margin: 0;
 }
@@ -178,7 +172,7 @@
 }
 
 .up-icon {
-  padding-top: 3rem;  
+  padding-top: 2.6rem;  
 }
 
 .step-number {
@@ -307,8 +301,6 @@
   font-size: 1.8rem;
 }
 
-
-
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
@@ -361,8 +353,6 @@
   transition: all 0.4s;
 }
 
-
-
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -386,7 +376,6 @@
   overflow: hidden;
   transition: transform 1.3s ease;
 }
-
 
 .pricing-plan--complete::after {
   content: "BEST VALUE";
@@ -446,8 +435,6 @@
   text-align: center;
 }
 
-
-
 .feature-title {
   font-size: 2.4rem;
   color: #333;
@@ -459,8 +446,6 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
-
-
 
 .section-cta {
   padding: 4.8rem 0 12.8rem;
@@ -498,7 +483,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/eating.webp");
   background-size: cover;
   background-position: center;
 }
@@ -529,12 +514,9 @@
   border-radius: 9px;
 }
 
-
-
 .cta *:focus {
   outline: none;
 }
-
 
 .footer {
   padding: 12.8rem 0;
@@ -630,7 +612,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -643,7 +624,6 @@ body {
   row-gap: 9.6rem;
 
 }
-
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
@@ -660,8 +640,6 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
-
 
 .grid--center-v {
   align-items: center;
@@ -707,7 +685,6 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
@@ -725,15 +702,11 @@ body {
   color: #fff;
 }
 
-
-
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
 }
-
-
 
 .btn--form {
   background-color: #45260a;
@@ -741,7 +714,6 @@ body {
   align-self: end;
   padding: 1.2rem;
 }
-
 
 .link:link,
 .link:visited {
@@ -752,7 +724,6 @@ body {
   padding-bottom: 2px;
   transition: all 0.3s;
 }
-
 
 .list {
   list-style: none;
@@ -777,8 +748,6 @@ body {
   font-size: 2.5rem;
 }
 
-
-
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -794,4 +763,3 @@ body {
 strong {
   font-weight: 500;
 }
-
